@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7943968525EE49C800C9848E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943968425EE49C800C9848E /* AppDelegate.swift */; };
+		7943968725EE49C800C9848E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943968625EE49C800C9848E /* SceneDelegate.swift */; };
+		7943968925EE49C800C9848E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943968825EE49C800C9848E /* ViewController.swift */; };
+		7943968C25EE49C800C9848E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7943968A25EE49C800C9848E /* Main.storyboard */; };
+		7943968E25EE49C900C9848E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7943968D25EE49C900C9848E /* Assets.xcassets */; };
+		7943969125EE49C900C9848E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7943968F25EE49C900C9848E /* LaunchScreen.storyboard */; };
+		7943969C25EE49C900C9848E /* FoodOrderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943969B25EE49C900C9848E /* FoodOrderAppTests.swift */; };
+		794396A725EE49C900C9848E /* FoodOrderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794396A625EE49C900C9848E /* FoodOrderAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7943969825EE49C900C9848E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7943967925EE49C800C9848E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7943968025EE49C800C9848E;
+			remoteInfo = FoodOrderApp;
+		};
+		794396A325EE49C900C9848E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7943967925EE49C800C9848E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7943968025EE49C800C9848E;
+			remoteInfo = FoodOrderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7943968125EE49C800C9848E /* FoodOrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodOrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7943968425EE49C800C9848E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7943968625EE49C800C9848E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7943968825EE49C800C9848E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7943968B25EE49C800C9848E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7943968D25EE49C900C9848E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7943969025EE49C900C9848E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7943969225EE49C900C9848E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7943969725EE49C900C9848E /* FoodOrderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodOrderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7943969B25EE49C900C9848E /* FoodOrderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrderAppTests.swift; sourceTree = "<group>"; };
+		7943969D25EE49C900C9848E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794396A225EE49C900C9848E /* FoodOrderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodOrderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		794396A625EE49C900C9848E /* FoodOrderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrderAppUITests.swift; sourceTree = "<group>"; };
+		794396A825EE49C900C9848E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7943967E25EE49C800C9848E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7943969425EE49C900C9848E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7943969F25EE49C900C9848E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7943967825EE49C800C9848E = {
+			isa = PBXGroup;
+			children = (
+				7943968325EE49C800C9848E /* FoodOrderApp */,
+				7943969A25EE49C900C9848E /* FoodOrderAppTests */,
+				794396A525EE49C900C9848E /* FoodOrderAppUITests */,
+				7943968225EE49C800C9848E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7943968225EE49C800C9848E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7943968125EE49C800C9848E /* FoodOrderApp.app */,
+				7943969725EE49C900C9848E /* FoodOrderAppTests.xctest */,
+				794396A225EE49C900C9848E /* FoodOrderAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7943968325EE49C800C9848E /* FoodOrderApp */ = {
+			isa = PBXGroup;
+			children = (
+				7943968425EE49C800C9848E /* AppDelegate.swift */,
+				7943968625EE49C800C9848E /* SceneDelegate.swift */,
+				7943968825EE49C800C9848E /* ViewController.swift */,
+				7943968A25EE49C800C9848E /* Main.storyboard */,
+				7943968D25EE49C900C9848E /* Assets.xcassets */,
+				7943968F25EE49C900C9848E /* LaunchScreen.storyboard */,
+				7943969225EE49C900C9848E /* Info.plist */,
+			);
+			path = FoodOrderApp;
+			sourceTree = "<group>";
+		};
+		7943969A25EE49C900C9848E /* FoodOrderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7943969B25EE49C900C9848E /* FoodOrderAppTests.swift */,
+				7943969D25EE49C900C9848E /* Info.plist */,
+			);
+			path = FoodOrderAppTests;
+			sourceTree = "<group>";
+		};
+		794396A525EE49C900C9848E /* FoodOrderAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				794396A625EE49C900C9848E /* FoodOrderAppUITests.swift */,
+				794396A825EE49C900C9848E /* Info.plist */,
+			);
+			path = FoodOrderAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7943968025EE49C800C9848E /* FoodOrderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794396AB25EE49C900C9848E /* Build configuration list for PBXNativeTarget "FoodOrderApp" */;
+			buildPhases = (
+				7943967D25EE49C800C9848E /* Sources */,
+				7943967E25EE49C800C9848E /* Frameworks */,
+				7943967F25EE49C800C9848E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodOrderApp;
+			productName = FoodOrderApp;
+			productReference = 7943968125EE49C800C9848E /* FoodOrderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7943969625EE49C900C9848E /* FoodOrderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794396AE25EE49C900C9848E /* Build configuration list for PBXNativeTarget "FoodOrderAppTests" */;
+			buildPhases = (
+				7943969325EE49C900C9848E /* Sources */,
+				7943969425EE49C900C9848E /* Frameworks */,
+				7943969525EE49C900C9848E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7943969925EE49C900C9848E /* PBXTargetDependency */,
+			);
+			name = FoodOrderAppTests;
+			productName = FoodOrderAppTests;
+			productReference = 7943969725EE49C900C9848E /* FoodOrderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		794396A125EE49C900C9848E /* FoodOrderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794396B125EE49C900C9848E /* Build configuration list for PBXNativeTarget "FoodOrderAppUITests" */;
+			buildPhases = (
+				7943969E25EE49C900C9848E /* Sources */,
+				7943969F25EE49C900C9848E /* Frameworks */,
+				794396A025EE49C900C9848E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794396A425EE49C900C9848E /* PBXTargetDependency */,
+			);
+			name = FoodOrderAppUITests;
+			productName = FoodOrderAppUITests;
+			productReference = 794396A225EE49C900C9848E /* FoodOrderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7943967925EE49C800C9848E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7943968025EE49C800C9848E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7943969625EE49C900C9848E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7943968025EE49C800C9848E;
+					};
+					794396A125EE49C900C9848E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7943968025EE49C800C9848E;
+					};
+				};
+			};
+			buildConfigurationList = 7943967C25EE49C800C9848E /* Build configuration list for PBXProject "FoodOrderApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7943967825EE49C800C9848E;
+			productRefGroup = 7943968225EE49C800C9848E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7943968025EE49C800C9848E /* FoodOrderApp */,
+				7943969625EE49C900C9848E /* FoodOrderAppTests */,
+				794396A125EE49C900C9848E /* FoodOrderAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7943967F25EE49C800C9848E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7943969125EE49C900C9848E /* LaunchScreen.storyboard in Resources */,
+				7943968E25EE49C900C9848E /* Assets.xcassets in Resources */,
+				7943968C25EE49C800C9848E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7943969525EE49C900C9848E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794396A025EE49C900C9848E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7943967D25EE49C800C9848E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7943968925EE49C800C9848E /* ViewController.swift in Sources */,
+				7943968525EE49C800C9848E /* AppDelegate.swift in Sources */,
+				7943968725EE49C800C9848E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7943969325EE49C900C9848E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7943969C25EE49C900C9848E /* FoodOrderAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7943969E25EE49C900C9848E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794396A725EE49C900C9848E /* FoodOrderAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7943969925EE49C900C9848E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7943968025EE49C800C9848E /* FoodOrderApp */;
+			targetProxy = 7943969825EE49C900C9848E /* PBXContainerItemProxy */;
+		};
+		794396A425EE49C900C9848E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7943968025EE49C800C9848E /* FoodOrderApp */;
+			targetProxy = 794396A325EE49C900C9848E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7943968A25EE49C800C9848E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7943968B25EE49C800C9848E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7943968F25EE49C900C9848E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7943969025EE49C900C9848E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		794396A925EE49C900C9848E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		794396AA25EE49C900C9848E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794396AC25EE49C900C9848E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodOrderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.FoodOrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		794396AD25EE49C900C9848E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodOrderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.FoodOrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		794396AF25EE49C900C9848E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodOrderAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.FoodOrderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodOrderApp.app/FoodOrderApp";
+			};
+			name = Debug;
+		};
+		794396B025EE49C900C9848E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodOrderAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.FoodOrderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodOrderApp.app/FoodOrderApp";
+			};
+			name = Release;
+		};
+		794396B225EE49C900C9848E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodOrderAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.FoodOrderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodOrderApp;
+			};
+			name = Debug;
+		};
+		794396B325EE49C900C9848E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodOrderAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.FoodOrderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodOrderApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7943967C25EE49C800C9848E /* Build configuration list for PBXProject "FoodOrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794396A925EE49C900C9848E /* Debug */,
+				794396AA25EE49C900C9848E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794396AB25EE49C900C9848E /* Build configuration list for PBXNativeTarget "FoodOrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794396AC25EE49C900C9848E /* Debug */,
+				794396AD25EE49C900C9848E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794396AE25EE49C900C9848E /* Build configuration list for PBXNativeTarget "FoodOrderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794396AF25EE49C900C9848E /* Debug */,
+				794396B025EE49C900C9848E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794396B125EE49C900C9848E /* Build configuration list for PBXNativeTarget "FoodOrderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794396B225EE49C900C9848E /* Debug */,
+				794396B325EE49C900C9848E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7943967925EE49C800C9848E /* Project object */;
+}
